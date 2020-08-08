@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Card Flip</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="navigation">
+            <input type="checkbox" name="menu" id="menu" class="navigation__checkbox">
+            <label for="menu" class="navigation__button">
+                <span class="navigation__icon"></span>
+            </label>
+
+            <div class="navigation__bg"></div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">About us</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Our projects</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="card-box">
+            <div class="card">
+                <div class="card__side card__side--front">
+                    <div class="card__picture">&nbsp;</div>
+                    <h4 class="card__heading">
+                        <span class="card__heading--content">The Level Is Higher</span>
+                    </h4>
+
+                    <ul class="card__plan">
+                        <li class="card__options">10 cars</li>
+                        <li class="card__options">3 houses + 1 yacht</li>
+                        <li class="card__options">2 assistants</li>
+                        <li class="card__options">1 arsenal</li>
+                    </ul>
+                </div>
+                <div class="card__side card__side--back">
+                    <div class="card__price-box">
+                        <p class="card__only card__text">Only</p>
+                        <p class="card__price card__text">$599</p>
+                    </div>
+
+                    <a href="#" class="btn">Buy now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
